@@ -1,0 +1,314 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 20px;
+  background-color: #f1f1f1;
+  font-family: arial;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* main container  */
+.container {
+
+}
+/* style the header of the page */
+.header{
+  background: white;
+  padding: 30px;
+  text-align: center;
+  background: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 87, 25));
+}
+
+.header h2{
+  font-size: 50px;
+}
+
+/* styling the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(238, 86, 0);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 15px 18px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: #333;
+}
+.topnav a:focus{
+  background-color: white;
+  color: #333;
+}
+
+/* search box effects */
+.container {
+	width: 80%;
+	margin: -27px -27px 0px 0px;
+  float: right;
+  display: table;
+  position: relative;
+}
+.searchbox {
+	position: relative;
+	min-width: 170px;
+	width: 0%;
+	height: 40px;
+	overflow: hidden;
+	float: right;
+}
+.searchbox-input {
+	position: absolute;
+	top: 0;
+	right: 4px;
+	border: 0;
+	outline: 0;
+	background-color: #dcddd8;
+	width: 80%;
+	height: 30px;
+	margin: 0;
+	padding-left: 20px;
+	font-size: 20px;
+	color: rgb(238, 86, 0);
+  margin-right: 5px;
+  border-radius: 25px;
+}
+.searchbox-input::-webkit-input-placeholder {
+ color: #d74b4b;
+}
+.searchbox-input:-moz-placeholder {
+ color: #d74b4b;
+}
+.searchbox-input::-moz-placeholder {
+ color: #d74b4b;
+}
+.searchbox-input:-ms-input-placeholder {
+ color: #d74b4b;
+}
+.searchbox-icon, .searchbox-submit {
+	position: absolute;
+	right: 0;
+	top: 0;
+  border-radius: 50%;
+	width:30px;
+	height: 30px;
+	display: block;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 15px;
+	text-align: center;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	cursor: pointer;
+	color: #dcddd8;
+	background-color: #1F2B3C;
+}
+
+
+
+/* effects for login box  */
+.topnav #login {
+  float: right;
+}
+
+.loginBox {
+  display: none;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  background-color: #f1f1f1;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom: 2px solid rgb(238, 86, 0);
+  border-right: 2px solid rgb(238, 86, 0);
+  border-left: 2px solid rgb(238, 86, 0);
+  padding: 5px 20px 10px 20px;
+  overflow: hidden;
+}
+#loginOff{
+  display: none;
+  float: right;
+}
+.loginBox input {
+  width: 20%;
+  height: 30px;
+  outline-style: none;
+  border: none;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 8px;
+  border-bottom: 2px solid rgb(238, 86, 0);
+  border-left: 1px solid rgb(238, 86, 0);
+}
+.loginBox input:focus {
+  background: rgb(238, 86, 0);
+  color: white;
+}
+
+.loginBox button {
+  width: 10%;
+  vertical-align: middle;
+  height: 30px;
+  border: 2px solid rgb(238, 86, 0);
+  border-radius: 10px;
+  font-size: 15px;
+  color: rgb(196, 94, 0);
+  font-weight: bold;
+}
+.loginBox button:hover {
+  background-color: rgb(238, 86, 0);
+  color:#f1f1f1
+}
+
+.loginBox button:focus{
+  outline-style: none;
+}
+
+.loginBox a {
+  color: rgb(238, 86, 0);
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.loginBox a:hover {
+  color: rgb(200, 22, 22);
+  font-size: 15px;
+}
+/* sign up effects */
+.newAccount {
+  float: right;
+  margin-right: -29px;
+  margin-top: -43px;
+  padding: 20px 20px 20px 11px;
+  width: auto;
+  color: white;
+  background-color: rgb(238, 86, 0);
+}
+.newAccount:hover {
+  background-color: white;
+  color: black;
+}
+/* shadow for all cards */
+.effectShadow{
+    -webkit-box-shadow: 0 6px 6px -6px #777;
+       -moz-box-shadow: 0 6px 6px -6px #777;
+            box-shadow: 0 6px 6px -6px #777;
+}
+/* style left Column */
+.leftCol{
+  width: 75%;
+  float: left;
+}
+.leftCol h2 {
+  color: white;
+}
+/* stylw right Column */
+.rightCol {
+  width: 25%;
+  float: right;
+  padding-left: 20px;
+}
+
+/* effects in images */
+.subImg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height: 150px;
+}
+
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  height: 300px;
+}
+
+/* effects for cards  */
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(244, 116, 12)
+}
+/* effects for Right side cards  */
+.rightCard {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 2px solid rgb(244, 116, 12)
+}
+/* style right side card's headers */
+.rightCard h2{
+  width: 120%;
+  background: rgb(4, 93, 210);
+  margin-top: -20px;
+  margin-left: -20px;
+  padding: 20px;
+  color: white;
+}
+
+.rightCard .subImg{
+  margin-top: 10px;
+
+}
+
+
+/* style the header of the articles inside of the cards */
+.card h2{
+  width: 120%;
+  background: rgb(238, 86, 0);
+  margin-top: -20px;
+  margin-left: -20px;
+  padding: 20px;
+}
+
+/* removing float effects*/
+.row:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+/* arranging links of social networks */
+.rightCol .follow img {
+  max-width: 40px;
+}
+
+/* footer of the page   */
+.footer {
+  background: #ddd;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-bottom: 2px solid rgb(238, 86, 0);
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    body{
+      widows: 100%;
+    }
+    .leftCol, .rightCol {
+        width: 100%;
+        padding: 0;
+    }
+
+    .rightCol {
+      
+    }
+}
